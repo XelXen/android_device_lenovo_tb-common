@@ -29,7 +29,7 @@ PRODUCT_CHARACTERISTICS := tablet
 PRODUCT_AAPT_CONFIG := normal
 
 # ANT+
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library \
     libantradio
@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
 #    Snap
 
 # Camera
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     Snap
 
 
@@ -167,7 +167,7 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service
 
 # IMS
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     ims-ext-common
 
 # IPA Manager
@@ -321,10 +321,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 # Telephony
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     telephony-ext
 
-PRODUCT_BOOT_JARS += \
+# PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # USB
@@ -349,7 +349,7 @@ PRODUCT_PACKAGES += \
     libQWiFiSoftApCfg \
     libwpa_client 
 
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     hostapd \
     wpa_supplicant \
     wpa_supplicant.conf
